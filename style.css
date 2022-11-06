@@ -1,0 +1,144 @@
+/* ------ navbar ----------*/ 
+/* all common */
+
+.f{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+body{
+    /*   background-color:beige; */
+      font-family:  Georgia, 'Times New Roman', Times, serif, sans-serif;
+      margin:0;
+      scroll-behavior:smooth;
+    }
+    
+    
+    ul{
+      align-items:center;
+      display:flex;
+      list-style-type:none;
+      width:100%;
+      gap:3rem;
+      justify-content:center;
+      font-size:2rem;
+      top:0;
+      margin:0;
+      padding:1rem;
+      background-color:rgb(147, 147, 147);
+      color: white;
+    }
+    
+    li{
+      cursor:pointer;
+    }
+    li a{
+      text-decoration:none;
+      color:inherit;
+    }
+  
+
+
+    /* banner */
+
+    .video-section{
+        padding: 30px;
+    }
+
+    iframe{
+        border: 4px solid rgb(255, 255, 255);
+-moz-border-radius: 15px;
+border-radius: 15px;
+overflow: hidden;
+align-items: center;
+    }
+
+
+    /* text on image */
+
+    .img-container{
+        background-image: url(./images/original.jpg);
+        display: grid;
+        place-items: center;
+        height: 200px;
+        width: 100%;
+      
+    }
+
+    .top-center{ 
+        transform: translateY(-40px);
+        font-size: 3em;
+ } 
+
+ /* image box */
+
+ .image-box{
+    height: 200px;
+    background-color: aqua;
+ }
+
+
+/* two section  */
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+
+}
+
+.img{
+    height: 350px;
+    width: 500px;
+    --radius: 20px; 
+    border-radius: var(--radius);
+    
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--radius);
+}
+
+
+
+/* last section */
+
+.banner2{
+    width: 100%; 
+    height: 600px;
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/nature.jpg);
+    padding-top: 50px;
+}
+
+.banner2 .box1{
+
+    background-color: rgba(255, 255, 255, 0.621);
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    
+    height: 250px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    border-radius: 40px;
+    padding-top: 30px;
+
+}
+
+.box1 button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 12px;
+    
+}
